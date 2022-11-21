@@ -32,9 +32,6 @@ body{
     font-family: 'Oswald-Medium';
     color: white;
     text-align: center;
-/*     height: 100%; */
-    /* background-color: black; */
-    /* background-color: #0f0f30; */
 }
 
 header{
@@ -43,10 +40,6 @@ header{
     background-size: cover;
     background-blend-mode: darken;
     background-attachment: fixed;
-     /* background-size: cover; */
-   /*  background-repeat: repeat; */
-    /* background-color:  #042636; */
-   /*  background-color: #0f0f30; */
     background-position: center;
     height: 100vh; 
     padding: 10px;
@@ -63,12 +56,10 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    cursor: pointer;
 }
 
 .grid-header{
-    border: 1px solid red;
-    /* background-color:  #042636; */
-   /*  font-size: 0.9em; */
     background-color: rgba(4, 38, 54, 0.35);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13.5px );
@@ -115,7 +106,6 @@ h1{
 a{
     text-decoration: none;
     padding: 10px;
-    /* margin-right: 5px; */
     font-size: 1.5em;
     margin-left: -18px;
     color: white;
