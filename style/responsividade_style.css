@@ -1,0 +1,135 @@
+@media (max-width: 1024px){
+    .img-perfil{
+        height: 190px;
+        width: 190px;
+    }
+}
+
+
+
+@media (max-width: 768px){
+    body{
+        font-size: 0.7em;
+    }
+    .texto-portifolio{
+        width: 40%;
+        /* font-size: 2em; */
+    }
+
+    .img-layout{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img-perfil{
+        height: 170px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 670px){
+    .grid-section{
+        /* border: 1px solid red; */
+        padding: 10px;
+    }
+
+
+    .grid-poster{
+        /* border: 1px solid green; */
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 6px;
+        place-items: center;
+        justify-content: center;
+        grid-template-areas:
+        "design site wordpress"
+        ;
+    }
+
+    .teste{
+        /*  border: 1px solid blue; */
+         padding: 10px;
+         background-color: #18c4dc;
+         color: black;
+         margin-bottom: 5px;
+          border-radius: 15px 25px 15px 25px; 
+       
+        }
+
+        .img-layout{
+            height: 50px;
+            width: 50px;
+        }
+
+    
+
+        .grid-esq{
+            padding: 10px;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
+            gap: 6px;
+            place-items: center;
+            justify-content: center;
+            grid-template-areas:
+            "nome"
+            "email"
+            "text-area"
+            "botao"
+            ;
+        }
+
+        .nome{
+           width: 100%;
+        }
+        .email{
+            width: 100%;
+        }
+}
+
+@media (max-width: 564px){
+    .texto-portifolio{
+        width: 80%;
+        /* font-size: 2em; */
+    }
+    .sub-a{
+        grid-area: a;
+    }
+
+    .sub-b{
+        grid-area: b;
+    }
+
+    .grid-subdivisao{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    /*     gap: 50px; */
+        place-items: center;
+        justify-content: center;
+        grid-template-areas:
+        "img-perfil"
+        "texto-sobre"
+        ;
+    }
+    .re, .ri{
+        height: auto;
+    }
+
+    .grid-contato{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    /*     gap: 30px; */
+     /*    place-items: center; */
+        justify-content: space-around;
+        grid-template-areas:
+        "section-esq"
+        "section-dir"
+        ;
+    }
+}

@@ -1,0 +1,189 @@
+main{
+    /*     border: 5px solid red; */
+      /*   background-color: #0f0f30; */
+     /*  padding: 10px; */
+     background-color: #18c4dc;
+       /*  background-image: url("/amostra2.png");
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        padding: 10px; */
+     /*    height: 500px;
+        background-image: url("/TEC.jpg");
+        background-position: center;
+        background-size: cover; */
+}
+
+.re, .ri{
+    border: 1px solid blue;
+   /*  background-color: #18c4dc; */
+   background-image: url("/desafio-2/img/Tec2.jpg");
+ /*   background-image: url("/7.jpg"); */
+   background-attachment: fixed;
+   background-size: cover;
+   height: 50vh;
+   /* padding: 10px; */
+}
+
+.ro{
+    border: 1px solid white;
+}
+
+h3{
+    padding: 10px;
+    
+}
+
+h4{
+    padding: 10px;
+ /*    border: 1px solid white; */
+    width: 80%;
+    background-image: linear-gradient(to right, rgba(82, 2, 2, 0), black, rgba(82, 2, 2, 0));
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.texto-sobre-nos{
+    grid-area: texto-sobre;
+   text-align: center;
+   font-size: 1.2em;
+   width: 80%;
+  /*  border: 1px solid red; */
+ /*   width: 60%; */
+/*  background-color: rgba(4, 38, 54, 0.35);
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ backdrop-filter: blur( 13.5px );
+ -webkit-backdrop-filter: blur( 13.5px );
+ border-radius: 10px;
+ border: 1px solid rgba( 255, 255, 255, 0.18 );
+ padding: 10px; */
+}
+
+.grid-subdivisao{
+    /* border: 1px solid red; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 50px;
+    place-items: center;
+    justify-content: center;
+    grid-template-areas:
+    "img-perfil texto-sobre"
+    ;
+}
+
+.grid-cabecalho-section{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto;
+    /* gap: 5px; */
+     place-items: center;
+    justify-content: center;
+    grid-template-areas:
+    "sobre-nos"
+    "linha-horizontal"
+    ;
+
+  /*   background-color: rgba(4, 38, 54, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+    width: 50%;
+    margin: 10px auto; */
+}
+.sobre-nos{
+    grid-area: sobre-nos;
+    text-transform: uppercase;
+}
+.linha-horizontal{
+    height: 1px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid white;
+    grid-area: linha-horizontal;
+}
+
+.img-perfil{
+    height: 220px;
+    width: 220px;
+    grid-area: img-perfil;
+}
+
+.img-layout{
+    height: 120px;
+    width: 120px;
+}
+.grid-poster{
+    /* border: 1px solid green; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 6px;
+    place-items: center;
+    justify-content: center;
+    grid-template-areas:
+    "design site wordpress"
+    ;
+}
+
+.grid-esq{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 6px;
+    place-items: center;
+    justify-content: center;
+    grid-template-areas:
+    "nome email"
+    "text-area text-area"
+    "botao botao"
+    ;
+}
+
+.teste{
+    /*  border: 1px solid blue; */
+     padding: 30px;
+     background-color: #18c4dc;
+     color: black;
+     margin-bottom: 5px;
+     border-radius: 25px 50px 25px 50px;
+    /*  animation-name: anima-poster;
+     animation-duration: 4s;
+     animation-delay: 0s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate; */
+    
+    }
+    .teste:hover{
+       box-shadow: 0px 0px 8px aqua;
+        /*  box-shadow: 5px 5px 8px black;  */
+    }
+    
+    .texto-servicos{
+        width: 80%;
+    }
+    .sobre{
+        padding: 10px;
+    }
+    .servicos{
+        background-color: #2c343c;
+        width: 100%;
+    }
+    .design{
+        grid-area: design;
+    }
+      
+    .site{
+       grid-area: site;
+    }
+      
+    .wordpress{
+       grid-area: wordpress;
+    }

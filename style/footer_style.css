@@ -1,0 +1,83 @@
+footer{
+    /* background-image: url("/TEC.jpg");
+    background-attachment: fixed;
+    background-size: cover; */
+    border: 1px solid white;
+    background-image: linear-gradient(to right, black, rgb(5, 5, 116));
+  /*   height: 50vh; */
+    padding: 10px;
+   /*  font-size: 2em; */
+ /*   background-image: url("/7.jpg");
+   background-repeat: repeat;
+   background-size: cover;
+   background-position-x: 1000px; */
+  }
+  
+  
+@keyframes anima-poster{
+    from{
+        border-radius: 25px 50px 25px 50px;
+    }
+    to{
+        border-radius: 0px 0px 0px 0px;
+    }
+}
+
+.grid-contato{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+/*     gap: 30px; */
+ /*    place-items: center; */
+    justify-content: space-around;
+    grid-template-areas:
+    "section-esq section-dir"
+    ;
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    margin-right: 2px;
+}
+.nome{
+    grid-area: nome;
+    padding: 10px;
+    border-radius: 20px;
+}
+.email{
+    grid-area: email;
+    padding: 10px;
+    border-radius: 20px;
+}
+.text-area{
+    grid-area: text-area;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.botao{
+    grid-area: botao;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+
+}
+.botao:hover{
+   box-shadow: 0px 0px 8px aqua;
+}
+
+.section-esq{
+    grid-area: section-esq ;
+    /* border: 5px solid black; */
+    padding: 10px;
+    /* background-color: #18c4dc; */
+    background-image: linear-gradient(to right, rgb(136, 5, 129), rgb(6, 17, 80));
+    border-radius: 20px;
+}
+.section-dir{
+    grid-area: section-dir ;
+}
